@@ -3,7 +3,7 @@
 import { z } from 'zod';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import postgres  from 'postgres';
+import postgres {State} from 'postgres';
 import {signIn} from '@/auth';
 import { AuthError } from 'next-auth';
 
